@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 2
 requires-python = ">=3.10, <3.13"
 resolution-markers = [
     "python_full_version >= '3.12' and sys_platform == 'win32'",
@@ -1822,7 +1822,7 @@ requires-dist = [
     { name = "jupyter-events", marker = "extra == 'jupyter'" },
     { name = "nomad-lab", extras = ["dev", "infrastructure", "parsing"], marker = "extra == 'dev'", specifier = "==1.4.0rc1" },
     { name = "nomad-lab", extras = ["infrastructure", "parsing"], specifier = "==1.4.0rc1" },
-    { name = "nomad-tajine-plugin", marker = "extra == 'plugins'", specifier = "==1.0.0" },
+    { name = "nomad-tajine-plugin", marker = "extra == 'plugins'", specifier = "==1.1.0" },
     { name = "setuptools" },
 ]
 provides-extras = ["plugins", "jupyter", "dev"]
@@ -1919,15 +1919,15 @@ infrastructure = [
 
 [[package]]
 name = "nomad-tajine-plugin"
-version = "1.0.0"
+version = "1.1.0"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "nomad-lab" },
     { name = "python-magic-bin", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e8/9a/f6ba1084a165ca3ee6559f7f8eae29f953e3559a62f003928986541f0f11/nomad_tajine_plugin-1.0.0.tar.gz", hash = "sha256:04c1a3494c6e651e57d236366b498d72a5447cce4babb836fcfde98adfa8a75b", size = 108575, upload-time = "2025-10-21T12:53:20.307Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/92/51/0b387283d96c82ea45c06b74a181cb21093d5c089ecab46332e056f2e84b/nomad_tajine_plugin-1.1.0.tar.gz", hash = "sha256:724304a4105825773ffe65717f235f469c75a89952316dfea090436585936563", size = 111142, upload-time = "2025-10-21T16:05:32.666Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8e/be/82ca472214d758593571d3abd0de0d43ad311aabfad0a2d2a8d05c9c512a/nomad_tajine_plugin-1.0.0-py3-none-any.whl", hash = "sha256:38ad831849f6bf03afa82f94702bc8841d90c9b6b6ed0f15fabe9a3ce48e7eae", size = 9224, upload-time = "2025-10-21T12:53:19.315Z" },
+    { url = "https://files.pythonhosted.org/packages/b8/41/5ec99b5408cd668716930ffa2efa0493de0f59e300555d44918e548fad8c/nomad_tajine_plugin-1.1.0-py3-none-any.whl", hash = "sha256:3ecfbbe9c94c2ba35cb5f72c7c25d34d2656698055cea4058b188cb2578e646e", size = 12245, upload-time = "2025-10-21T16:05:31.534Z" },
 ]
 
 [[package]]
