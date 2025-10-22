@@ -16,7 +16,11 @@ meta:
   deployment: oasis
   deployment_url: https://nomad-lab.eu/prod/v1/tajine/api
   maintainer_email: fairmat@physik.hu-berlin.de
-  description: The NOMAD Tajine Example Oasis
+  description: |
+    This is the NOMAD Tajine Example Oasis hosted by [FAIRmat](https://fairmat-nfdi.eu/).
+    It is an example of our federated NOMAD Oasis deployment applied to cooking recipes.
+    You can explore the existing recipes under "Explore > Recipes" and upload your own
+    recipes using the "Publish > Uploads" menu.
 
 logstash:
   enabled: false
