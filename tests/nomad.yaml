@@ -7,3 +7,14 @@ client:
   password: "password"
 services:
   upload_limit: 1000
+plugins:
+  entry_points:
+    exclude:
+      - apps/1_all/1_entries
+      - apps/2_theory/1_calculations
+      - apps/3_experiment/1_eln
+      - example_uploads/1_basic_examples/1_theory
+      - example_uploads/1_basic_examples/2_eln
+      - example_uploads/1_basic_examples/3_tables
+      - example_uploads/2_tutorials/1_rdm_tutorial
+      - example_uploads/2_tutorials/2_cow_tutorial
