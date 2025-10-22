@@ -28,7 +28,7 @@ repository = "https://github.com/fairmat-nfdi/nomad-tajine-distro"
 
 [project.optional-dependencies]
 plugins = [
-  "nomad-tajine-plugin==1.2.0",
+  "nomad-tajine-plugin==1.2.1",
 ]
 jupyter = [
   "jupyter-events"
