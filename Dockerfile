@@ -119,6 +119,7 @@ COPY --chown=nomad:${UID} scripts/run-worker.sh .
 COPY configs/nomad.yaml nomad.yaml
 COPY pyproject.toml uv.lock /opt/
 COPY --chown=nomad:${UID} --from=docs /app/built_docs /opt/venv/lib/python${PYTHON_VERSION}/site-packages/nomad/app/static/docs
+COPY --chown=nomad:${UID} default_en.txt /opt/venv/lib/python${PYTHON_VERSION}/site-packages/nomad/units/default_en.txt
 
 RUN mkdir -p /app/.volumes/fs \
  && chown -R nomad:${UID} /app \
