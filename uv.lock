@@ -1822,7 +1822,7 @@ requires-dist = [
     { name = "jupyter-events", marker = "extra == 'jupyter'" },
     { name = "nomad-lab", extras = ["dev", "infrastructure", "parsing"], marker = "extra == 'dev'", specifier = "==1.4.0rc1" },
     { name = "nomad-lab", extras = ["infrastructure", "parsing"], specifier = "==1.4.0rc1" },
-    { name = "nomad-tajine-plugin", marker = "extra == 'plugins'", specifier = "==1.2.0" },
+    { name = "nomad-tajine-plugin", marker = "extra == 'plugins'", specifier = "==1.2.1" },
     { name = "setuptools" },
 ]
 provides-extras = ["plugins", "jupyter", "dev"]
@@ -1919,15 +1919,15 @@ infrastructure = [
 
 [[package]]
 name = "nomad-tajine-plugin"
-version = "1.2.0"
+version = "1.2.1"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "nomad-lab" },
     { name = "python-magic-bin", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/75/ed/bc7270c6814a11eb738a02b90254b35284e12d3a3ae4764b9ec7b527e2d2/nomad_tajine_plugin-1.2.0.tar.gz", hash = "sha256:c9e61b216e31cad3818ed24704fd8de8284b1ff77f6376cc09aec09d09af6afa", size = 117939, upload-time = "2025-10-22T18:31:07.073Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ad/aa/c4b7e1c1abb4725e6d18c6276431d543e58f5d712f9c240248cb0017d12e/nomad_tajine_plugin-1.2.1.tar.gz", hash = "sha256:9caf572f8e160af077d0697b8205b5cb6459d7ee7971b1cbe6d30985d21a64a7", size = 117935, upload-time = "2025-10-22T19:23:04.042Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a4/94/4e64d9cdf554360e4c758167904334142799717893d67d38f51a87690660/nomad_tajine_plugin-1.2.0-py3-none-any.whl", hash = "sha256:10fe325c72d869cdf3a8c4c8b79e0f674fb7a4463d1da940482a1100d18a45ef", size = 24288, upload-time = "2025-10-22T18:31:05.408Z" },
+    { url = "https://files.pythonhosted.org/packages/8b/00/9ebb81c26157c8210d8e441118f33fdaaf982ab3fbcfb2d6f9046d1f4280/nomad_tajine_plugin-1.2.1-py3-none-any.whl", hash = "sha256:4fbe030c85d124f19b3fe8014a5495fafb7a900b1c9143b137ac4176f0d40e36", size = 24283, upload-time = "2025-10-22T19:23:02.582Z" },
 ]
 
 [[package]]
