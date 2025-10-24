@@ -33,7 +33,7 @@ plugins = [
 jupyter = [
   "jupyter-events"
 ]
-dev = ["nomad-lab[parsing, infrastructure, dev]==1.4.0rc1"]
+dev = ["nomad-lab[parsing, infrastructure, dev]==1.4.0rc2"]
 
 [tool.uv]
 extra-index-url = [
